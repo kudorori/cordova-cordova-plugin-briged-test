@@ -22,7 +22,7 @@ public class main extends CordovaPlugin {
 			return true;
 		}
 		
-		if(active.equals("open")){
+		if(action.equals("open")){
 			this.cordova.getActivity().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://google.com.tw/")));
 		}
 		
