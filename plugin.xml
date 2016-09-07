@@ -19,7 +19,7 @@
         <!-- config -->
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="main">
-                <param name="android-package" value="main"/>
+                <param name="android-package" value="com.clk.cordova.main"/>
             </feature>
         </config-file>        
         <!-- source -->

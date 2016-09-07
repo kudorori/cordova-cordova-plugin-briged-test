@@ -6,6 +6,14 @@ exports.test=function(message){
 	}, 
 	function(e){
 		console.log("call error",e);
-	}, "main", "show123", [message]);
+	}, "main", "show", [message]);
+	
+	var b = cordova.exec(
+	function(e){
+		console.log("call success",e);
+	}, 
+	function(e){
+		console.log("call error",e);
+	}, "main", "show342", [message]);
 	console.log("called",b);
 }
