@@ -4,6 +4,7 @@ import org.apache.cordova.*;
 import org.json.*;
 import android.widget.Toast; 
 import android.content.Intent;
+import android.net.Uri;
 
 public class main extends CordovaPlugin {
 	
