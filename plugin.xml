@@ -23,7 +23,7 @@
             </feature>
         </config-file>        
         <!-- source -->
-        <source-file src="src/android/main.java" target-dir="src/com/clk/cordova/sample/main" />
+        <source-file src="src/android/main.java" target-dir="src/com/clk/cordova/main" />
     </platform>
     
 </plugin>
