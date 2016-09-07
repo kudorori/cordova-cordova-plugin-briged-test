@@ -11,7 +11,7 @@
        
     <!-- javascript -->
     <js-module name="js" src="www/main.js" >
-        <clobbers target="main" />
+        <clobbers target="main.main" />
     </js-module>
     
     <!-- android -->
