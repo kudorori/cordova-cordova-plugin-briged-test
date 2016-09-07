@@ -1,4 +1,4 @@
-package com.clk.cordova.sample;
+package com.clk.cordova;
 
 import org.apache.cordova.*;
 import org.json.*;
