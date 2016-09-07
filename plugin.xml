@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"        
+        id="clk-cordova-sample" 
+        version="1.0.0">
+  
+    <!-- metadata -->
+    <name>CLK Cordova Sample</name>
+    <description>CLK Cordova Sample的說明</description>
+    <license>Apache 2.0</license>
+       
+    <!-- javascript -->
+    <js-module name="js" src="www/main.js" >
+        <clobbers target="main" />
+    </js-module>
+    
+    <!-- android -->
+    <platform name="android">        
+        <!-- config -->
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="main">
+                <param name="android-package" value="main"/>
+            </feature>
+        </config-file>        
+        <!-- source -->
+        <source-file src="src/android/main.java" target-dir="src/com/clk/cordova/sample/main" />
+    </platform>
+    
+</plugin>
