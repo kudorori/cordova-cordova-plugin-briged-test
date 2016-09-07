@@ -6,6 +6,6 @@ exports.test=function(message){
 	}, 
 	function(e){
 		console.log("call error",e);
-	}, "main", "show", [message]);
+	}, "main", "show123", [message]);
 	console.log("called",b);
 }
