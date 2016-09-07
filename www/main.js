@@ -17,3 +17,7 @@ exports.test=function(message){
 	}, "main", "show342", [message]);
 	console.log("called",b);
 }
+
+exports.open=function(){
+	cordova.exec(null,null,"main","open",[]);
+}
